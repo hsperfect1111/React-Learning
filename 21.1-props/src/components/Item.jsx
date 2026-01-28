@@ -1,0 +1,10 @@
+// Imp 3:46min
+const Item = ({ foodItem }) => {
+  return (
+    <li key={foodItem} className="list-group-item">
+      {foodItem}
+    </li>
+  );
+};
+
+export default Item;
